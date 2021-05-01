@@ -6,7 +6,7 @@ public class Instructor extends User{
 public Instructor(int id, String firstName, String lastName, String email, 
 		String password,String certificate) {
 	super(id, firstName, lastName, email, password);
-	this.setCertificate(certificate);
+	this.certificate=certificate;
 }
 
 public Instructor() {
